@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- ICS2O-Unit3-02-HTML-User_Input -->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Volume of a Pyramid, with Javascript">
+    <meta name="keywords" content="mths, ics2o">
+    <meta name="author" content="Infinity de Guzman">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/ico" sizes="32x32" href="./favicons/sunset-32x32.ico">
+    <link rel="icon" type="image/ico" sizes="16x16" href="./favicons/sunset-16x16.ico">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Volume of a Pyramid, with a JS file</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Volume of a Pyramid, with a JS</h1>
+    <h2>Formula:</h2>
+		<h3>Volume = (l * w * h) / 3</h3>
+    <p>
+      Please enter the dimensions:
+      <form action="javascript:enterClicked()">
+        <label for="length">Length:</label>
+        <input type="number" step="any" id="length" placeholder="e.g 3.2 cm">&nbspcm<br><br>
+        <label for="width">Width:</label>
+        <input type="number" step="any" id="width" placeholder="e.g 4.4 cm">&nbspcm<br><br>
+        <label for="height">Height:</label>
+        <input type="number" step="any" id="height" placeholder="e.g 5.7 cm">&nbspcm<br><br>
+        <input type="submit" value="Calculate">
+      </form>
+    </p>
+    <div id="answers">
+      <div id="volume"></div>
+    </div>
+  </body>
+</html>
